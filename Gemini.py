@@ -1,7 +1,7 @@
 import requests
 
-GEMINI_API_KEY = "AIzaSyDDU-XS5-IoxY2wl8z5H9UeqocRd5ThKw8"
-url= f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
+GEMINI_API_KEY = "YOUR_AP_KEY"
+url= f"COPY THE CURL URL UPTO {GEMINI_API_KEY}"
 
 headers = {"Content-Type": "application/json"}
 
